@@ -103,14 +103,5 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services','s
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/app/playlists');
 
-    //    if (ionic.Platform.isIOS() || ionic.Platform.isAndroid()) {
-    //      $authProvider.cordova = true;
-    //    }
-
-    //    $authProvider.facebook({
-    //        clientId: '1728472337386104',
-    //        url: '#/app/auth/facebook',
-    //        redirectUri: 'http://localhost:8100'
-    //    });
 
 });
