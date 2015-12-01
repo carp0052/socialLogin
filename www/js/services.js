@@ -5,7 +5,7 @@ angular.module('starter.services', [])
 
     //Some fake testing data
     //where do I want to connect
-    var facebookApiURL = 'https://graph.facebook.com/v2.2';
+    var facebookApiURL = 'https://graph.facebook.com/v2.5';
 
     return {
         me: function () {
