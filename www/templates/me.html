@@ -1,0 +1,21 @@
+<ion-view view-title="About Me">
+    <ion-content>
+
+        <div class="list card">
+
+            <div class="item item-avatar">
+                <img ng-src="{{me.picture.data.url}}">
+                <h2>{{me.name}}</h2>
+                <p>Birthday: {{me.birthday}}</p>
+                <p>Gender: {{me.gender}}</p>
+            </div>
+
+            <div class="item item-body">
+                <p>"{{me.bio}}"</p>
+                <p><a ng-href="{{me.link}}" target="_blank" class="icon-left ion-earth subdued positive"> My Facebook Page</a></p>
+            </div>
+
+        </div>
+
+    </ion-content>
+</ion-view>
